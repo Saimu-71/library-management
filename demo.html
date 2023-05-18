@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div style="font-size: 2rem">
+      <a href="/"
+        ><img src="images/Vector.svg" alt="" width="100px" height="70px"
+      /></a>
+    </div>
+    <!-- <div style="font-size: 1.5rem"><a href="#">Issue Books</a></div> -->
+    <div style="font-size: 1.5rem">
+      <ul>
+        <!-- <li><a href="#">Search Books</a></li> -->
+        <!-- <li><a href="#">Issue Book</a></li>
+        <li><a href="/return.html">Return</a></li> -->
+      </ul>
+    </div>
+    <ul style="font-size: 1.2rem">
+      <li class="login"><a href="/login.html">Login</a></li>
+      <!-- <li><a href="#">Sign Up</a></li> -->
+      <li class="user-list" onclick="showProfile()">
+        <a href="#"></a>
+        <div class="profile" style="font-size: 0.8rem"></div>
+      </li>
+      <li class="admin"><a href="/admin.html"></a></li>
+      <li onclick="logout()" class="logout"><a href="#"></a></li>
+    </ul>
+  </header>
+  <main>
+    <!-- table section starts -->
+    <section>
+      <table  style="width: 100%;" class="demo-table">
+        <tr>
+          <th>name</th>
+          <th>id</th>
+          <th>book</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td>saimu</td>
+          <td>105</td>
+          <td>web</td>
+          <td><button>return</button></td>
+        </tr>
+        <tr>
+          <td>harun</td>
+          <td>101</td>
+          <td>java</td>
+          <td><button>return</button></td>
+        </tr>
+      </table>
+    </section>
+    <!-- table section ends -->
+    <!-- form section starts -->
+    <br>
+    <br>
+    <br>
+    <section>
+      <form action="" class="demo-form">
+        <label for="">Name</label>
+        <input type="text">
+        <label for="">ID</label>
+        <input type="number">
+        <label for="">Password</label>
+        <input type="password">
+
+        <button>Submit</button>
+      </form>
+    </section>
+
+  </main>
+</body>
+</html>
